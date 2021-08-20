@@ -1,0 +1,444 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.navbar ul{
+    display: flex;
+    list-style:none;
+}
+.navbar ul li{
+    margin-top: 4px;
+    text-decoration: none;
+}
+.navbar ul li a{
+   text-decoration: none;
+   font-size: 22px;
+   color: white;
+   font-weight: bold;
+   padding: 12px 28px;
+}
+.navbar ul li a:hover{
+  background-color: white;
+  color: black;
+ }
+.logo{
+    font-size: 55px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive;
+    animation: changer 2s infinite linear;
+}
+.cont input{
+    margin-top: 5px;
+ padding: 10px 14px;
+ border-radius: 20px;
+ border: none;
+ font-size: 15px;
+}
+.section-1::before{
+    background-color: black;
+    position: absolute;
+    content: "";
+    background-image:url("https://img5.goodfon.com/wallpaper/nbig/9/df/eda-frukty-iagody-tarelka-nozh-vilka-klubnika-chernika-blueb.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 450px;
+    z-index: -1;
+    opacity: 0.90;
+}
+.section-1{
+    display: flex;
+    flex-direction: column;
+    height: 380px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+}
+.first{
+    color: white;
+}
+.first h1{
+    font-size:3rem;
+
+}
+.first p{
+    font-size: 1.3rem;
+    color: rgb(241, 237, 237);
+}
+.section-2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+    background-color: #fffdfd;
+}
+.fic{
+    padding: 20px;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+}
+.section-2 ul{
+    display: grid;
+    grid-gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(4,1fr);
+    list-style: none;
+    text-decoration: none;
+    font-size: 20px;
+}
+.section-2 ul li a{
+    text-decoration: none;
+    text-align: center;
+}
+.section-2 ul li a img{
+border-radius: 60px;
+width: 90px;
+background-color: #d4b0b0;
+}
+.section-2 ul li a img:hover{
+   animation:hover 1s linear;
+ 
+    }
+.section-2 ul li a p{
+margin-top: 5px;
+color:black;
+padding: 20px;
+font-size: 17px;
+font-family: Arial, Helvetica, sans-serif;
+}
+.section-2 ul li a h3{
+    margin-top: 10px;
+    color: black;
+}
+.section-3{
+    height: 400px;
+
+}
+.section-3::before{
+  position: absolute;
+  content: "";
+  background-image: url("https://thumbs.dreamstime.com/b/various-types-pepper-spoon-dark-background-hot-seasonings-cooking-mexican-indian-cuisine-advertising-poster-191342100.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 400px;
+  z-index: -1;
+
+
+}
+.section-3 .conto{
+    width: 50%;
+    height: 400px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    margin: auto;
+}
+.section-3 h1{
+    font-size: 40px;
+    color: white;
+}
+.section-3 p{
+    margin-top: 2rem;
+    font-size: 25px;
+    color: white;
+}
+.section-3 .btn button{
+    margin-top: 2rem;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 0.6rem 1.3rem;
+    border-radius: 20px;
+    border: none;
+    background-color: orangered;
+    color: white;
+    cursor: pointer;
+}
+.section-3 .btn button:hover{
+background-color: white;
+color: orangered;
+transition: 1s;
+}
+.section-4{
+    display: grid;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    height: 500px;
+    grid-gap: 7px;
+}
+.section-4 .box{
+    overflow: hidden;
+    padding: 20px 40px 40px;
+    text-align: center;
+}
+.box h2{
+    padding: 20px;
+}
+.box p{
+    font-weight: 600;
+}
+.section-4 h1{
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+}
+.section-5{
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+.section-5::before{
+    position: absolute;
+    content: "";
+    background-image: url("https://images.pexels.com/photos/1907227/pexels-photo-1907227.jpeg?cs=srgb&dl=asian-food-black-background-bowl-1907227.jpg&fm=jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 600px;
+    z-index: -1;
+}
+.section-5 h1{
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
+}
+.section-5 p{
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+}
+.section-5 input{
+    text-align: center;
+    padding: 12px 150px;
+    margin: 5px;
+    border-radius: 20px;
+}
+#id{
+    text-align: center;
+    padding: 12px 185px;
+    margin: 5px;
+    border-radius: 20px;
+}
+#id1{
+    text-align: center;
+    padding: 12px 115px;
+    margin: 5px;
+    border-radius: 20px;
+}
+.btn1 button{
+    display: inline-block;
+    text-align: center;
+    padding: 12px 183px;
+    margin: 5px; 
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+    font-weight: 700;
+}
+.btn1 button:hover{
+  background-color: white;
+  color: black;
+}
+
+.section-6{
+    height: auto;
+}
+.section-6 h1{
+    margin: 50px;
+    text-align: center;
+    font-size: 2.3rem;
+}
+.section-6 img{
+    display: block;
+    margin: auto;
+    width: 50px;
+}
+.hh p{
+    margin: 40px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+}
+.s{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.foot{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: auto;
+}
+.foot ul{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(230px,1fr));
+    width: 90%;
+    margin: auto;
+    list-style: none;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+.foot ul li{
+    margin: 20px;
+}
+.kyu{
+    text-align: center;
+    padding: 1rem;
+    color: rgb(187, 179, 179);
+    font-size: 17px;
+    font-weight: 600;
+}
+@keyframes changer {
+    0%{
+      color: green;
+    }
+    20%{
+      color: red;
+    }
+    50%{
+      color: blue;
+    }
+    100%{
+      color: coral;
+    }
+  }
+@keyframes hover {
+    form{
+        transform: scale(0.8);
+    }
+    to{
+        transform: scale(1.2);
+    }
+}
+@media (max-width:1050px){
+    header{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+    }
+    header .cont{
+        display: none;
+    }
+    header .navbar ul{
+        display: flex;
+        flex-direction: column;
+    }
+    .section-1{
+        display: flex;
+        flex-direction: column;
+        height: 213px;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        text-align: center;
+    }
+    .first{
+        color: white;
+    }
+    .first h1{
+        font-size:2rem;
+    
+    }
+    .first p{
+
+        font-size: 1rem;
+        color: rgb(241, 237, 237);
+    }
+    .section-2 ul{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+    }
+    .section-3 h1{
+        font-size: 30px;
+        color: white;
+    }
+    .section-3 p{
+        margin-top: 2rem;
+        font-size: 17px;
+        color: white;
+    }
+    .section-3 .btn button{
+        margin-top: 1rem;
+    }
+    .section-4 {
+        height: auto;
+    }
+    .section-4 .box img{
+        width: auto;
+        display: block;
+        margin: auto;
+    }
+    .section-4 .box{
+        overflow: hidden;
+        padding: 20px 10px 20px;
+        text-align: center;
+    }
+    footer{
+        height: auto;
+    }
+    .foot ul{
+        display: flex;
+        flex-direction: column;
+    }
+    .baby form{
+        width: 77.5%;
+        height: auto;
+        margin: auto;
+    }
+    .section-5 input{
+        text-align: center;
+        padding: 12px 28px;
+        margin: 5px;
+        border-radius: 20px;
+    }
+    #id{
+        text-align: center;
+        padding: 12px 63px;
+        margin: 5px;
+        border-radius: 20px;
+    }
+    #id1{
+        text-align: center;
+        padding: 12px 0px;
+        margin: 5px;
+        border-radius: 20px;
+    }
+    .btn1 button{
+        display: inline-block;
+        text-align: center;
+        padding: 12px 60px;
+        margin: 5px; 
+        border-radius: 20px;
+        cursor: pointer;
+        background-color: blue;
+        color: white;
+        font-weight: 700;
+    }
+}
+
